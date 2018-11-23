@@ -1,3 +1,5 @@
+0.6.0
+  - Fix deprecation warnings for Rails 5 [GrabCAD]
 0.5.1
   - Support slim templates for consumer [pelle]
   - Add via argument to match routes to support 4.0 [pelle]
