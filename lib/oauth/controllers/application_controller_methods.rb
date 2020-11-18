@@ -125,8 +125,8 @@ module OAuth
         Authenticator.new(self,[:oauth10_access_token,:interactive]).allow?
       end
 
-      def invalid_oauth_response(code=401,message="Invalid OAuth Request")
-        render :text => message, :status => code
+      def invalid_oauth_response(code = 401,message="Invalid OAuth Request")
+        render plain: message, status: code
         false
       end
 
