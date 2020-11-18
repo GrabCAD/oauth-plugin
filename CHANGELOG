@@ -1,3 +1,6 @@
+0.7.0
+  - Fix deprecation warnings for Rails 5.2 [GrabCAD]
+  - Fix rendering of empty responses
 0.6.0
   - Fix deprecation warnings for Rails 5 [GrabCAD]
 0.5.1
